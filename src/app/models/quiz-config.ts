@@ -1,10 +1,10 @@
 export class QuizConfig {
     allowBack: boolean;
     allowReview: boolean;
-    autoMove: boolean;  // if boolean; it will move to next question automatically when answered.
-    duration: number;  // indicates the time in which quiz needs to be completed. 0 means unlimited.
+    autoMove: boolean; 
+    duration: number; 
     pageSize: number;
-    requiredAll: boolean;  // indicates if you must answer all the questions before submitting.
+    requiredAll: boolean;  
     richText: boolean;
     shuffleQuestions: boolean;
     shuffleOptions: boolean;
